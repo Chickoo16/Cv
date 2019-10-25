@@ -3,27 +3,14 @@
   <head>
     <meta charset = "utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Chickoo's CV</title>
-    <style>
-
-h1, h4, h5 {
-  color : 	#008080 ;
-}
-a {
-
-  text-decoration: none;
-}
-th,td {
-  padding : 10px;
-  text-align: left;
-
-}
-    tr:nth-child(even) {background-color: #f2f2f2;}
-    </style>
-   <head>
-
+  </head>
      <body>
-  <hr size =2>
+
+  <!-- *****************    intro-section      ******************* -->
+
 <table cellspacing =5>
  <tr>
 
@@ -39,8 +26,8 @@ th,td {
    <br> <em>👉 Physics enthusiastic </em>
      </p>
 
-     <p>
-      <em style=color:#2E8B57>"<strong>Programming</strong> is my <strong>Passion</strong>, passion is my <strong>Purpose</strong> and purpose will become my <strong>profession </strong>!" </em>
+     <p style=color:#2E8B57 class="quote">
+      "<strong>Programming</strong> is my <strong>Passion</strong>, passion is my <strong>Purpose</strong> and purpose will become my <strong>profession </strong>!"
      </p>
 
    </td>
@@ -49,11 +36,17 @@ th,td {
 
  </table>
 
-<hr size =2>
 
-<h4>Education :</h4>
-
-    <table frame =hsides>
+<!-- **************    Education section    ************ -->
+<br />
+<div class="row">
+    <div class="col-12">
+<h2>Education</h2>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-6 education">
+    <table style="font-size: 20px;">
 
       <tr>
       <th>Year</th>
@@ -76,9 +69,24 @@ th,td {
       </tr>
 
       </table>
+    </div>
+    <div class="col-md-6 school-image">
+        <img src="https://cdn1.imggmi.com/uploads/2019/10/24/64e2fa54291e199438462f4258fc9870-full.jpg" />
+    </div>
+  </div>
     <br>
-    <h4>Achievments : </h4>
-    <ul>
+    <!-- *****************        Achievments section           ************ -->
+<div class="row">
+    <div class="col-12" >
+          <h2>Achievments </h2>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-6 trophy-image">
+    <img src="https://cdn1.imggmi.com/uploads/2019/10/24/915c080b8edbcb2255521e07af41b099-full.jpg"/>
+  </div>
+  <div class="col-md-6 achievments">
+    <ul style="font-size: 20px;">
 
       <li> Scored <strong>85 %centile</strong> in IMO level 2, 2016 (<em> International Mathematics Olympiad </em>) </li> <br>
 
@@ -90,24 +98,44 @@ th,td {
 
     </ul>
 
-     <hr size=2>
-
-    <h4>My hobbies :</h4>
-    <ul>
-
-      <li>Photography </li><br>
+   </div>
+   </div>
+<!--*******************       Hobbies sectiom        **************** -->
+<br>
+<div class="row">
+  <div class="col-lg-12" id="hobbies">
+<h2>My hobbies</h2>
+</div>
+<div class=" col-md-6 photography">
+<div class="row">
+  <div class="col-md-6 camera">
+<img src="https://media.giphy.com/media/xlA9BG9WvE2DapI3fS/giphy.gif" width=300 height=300>
+  </div>
+  <div class="col-md-6 photography-text">
+      <strong>Photography</strong> <br>
       <em><a href="photo.html">click here</a> to see some of my shots! </em> <br> <br>
+</div>
+</div>
+</div>
+<div class="col-md-6 programming">
+<div class="row">
+  <div class=" col-md-6 code-image">
+      <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" />
+  </div>
+  <div class="col-md-6 programming-text">
+    <strong>Programming</strong>
+  </div>
+</div>
+  </div>
+</div>
 
-      <li>Programming </li>
-
-    </ul>
-
-   <hr size=2>
-
-    <h6>My favourite books : </h6>
-
- <ul>
-
+<!-- ******************      My favourite books      **************** -->
+<br>
+<div class="row">
+    <h5>My favourite books</h5>
+<div class="row">
+<div class="col-md-6 books">
+ <ul style="font-size: 20px;">
       <li>A complete guide to programming in C++ by <em>Ulla Kirch-Prinz</em> <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.lmpt.univ-tours.fr/~volkov/C%2B%2B.pdf&ved=2ahUKEwj8wrD68bHkAhWRguYKHYcwCXUQFjAMegQIBhAB&usg=AOvVaw28mjwkWVzS6e5V19ElORAY"> <br> <br>Download </a></li>
 
       <br>
@@ -118,17 +146,31 @@ th,td {
 
       <li>Theory of everything by <em>Stephen Hawking</em><a href ="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.physicspaathshala.yolasite.com/resources/The%2520Theory%2520of%2520Everything.pdf&ved=2ahUKEwigyPfw-rHkAhWX6nMBHcSOCCMQFjABegQIARAB&usg=AOvVaw2Y1MD4tK-nlL-v0dq25fHA" ><br><br>Download</a> </li>
  </ul>
-    <hr>
-  <p>
-    Follow me on :
-    <ul>
-      <li><a href ="https://www.instagram.com/p/Bx1xca_BOtCMm6xwu1PlB46H4H6713m9U8MxSg0/?igshid=g0p91ara2ym0" >Instagram</a></li>
-      <li><a href = "https://www.facebook.com/atharvsingh1604" >facebook</a></li>
-    </ul>
-    </p>
-  <p>
+</div>
+<div class="col-md-6 book-image">
+    <img src="https://cdn1.imggmi.com/uploads/2019/10/25/73e53995eee32592494be842facab4cc-full.jpg">
+</div>
+</div>
+</div>
+<br>
+  <!-- ******************      Footer section      ************ -->
+<div class="row">
+<div class="col-lg-12 footer">
+  <footer>
+  <strong>Follow me on :</strong>
+
+      <a href ="https://www.instagram.com/p/Bx1xca_BOtCMm6xwu1PlB46H4H6713m9U8MxSg0/?igshid=g0p91ara2ym0" >
+<img src="https://cdn1.imggmi.com/uploads/2019/10/25/5f3833f2d3e44aa8b199a803bb30c97d-full.png" class="insta">
+      </a>
+      <a href = "https://www.facebook.com/atharvsingh1604" >
+          <img src="https://cdn1.imggmi.com/uploads/2019/10/25/ba4eab4a826a2e7d4f8b19c81de6ed34-full.png">
+      </a>
+
+<br>
 <br>
     <em>Ask me something? <br> Feel free to <a href ="contact.html">contact</a></em>
-  </p>
+  </footer>
+  </div>
+  </div>
     </body>
 </html>

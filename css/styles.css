@@ -1,0 +1,80 @@
+h1, h2, h5 {
+  color : 	#008080 ;
+   font-family: "Montserrat-Bold";
+   font-size : 3rem;
+   line-height: 1.5;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+th,td {
+  padding : 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.my-image {
+  padding-left: 50px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.education {
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.school-image {
+  padding-right: 100px;
+}
+
+.row {
+  margin : 0px;
+}
+
+.trophy-image {
+  padding: 100px 100px 100px 100px;
+}
+
+.achievments {
+  padding-right : 100px;
+  padding-top: 80px;
+}
+
+#hobbies {
+  text-align: center;
+}
+
+.quote {
+  font-family:  'Indie Flower', cursive;
+  font-size: 23px;
+}
+.programming-text {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 40px;
+  padding-top: 90px;
+}
+
+.photography-text {
+  font-family: 'Source Sans Pro-Bold';
+  font-size: 40px;
+  padding-top: 90px;
+}
+
+.photography {
+  padding-bottom: 60px;
+}
+
+.insta {
+  padding: 10px;
+}
