@@ -78,3 +78,12 @@ tr:nth-child(even) {
 .insta {
   padding: 10px;
 }
+
+.camera {
+  margin-left: 50px;
+}
+
+.code-image {
+  margin-left: 50px;
+  padding-top: 50px;
+}
