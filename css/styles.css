@@ -38,9 +38,7 @@ tr:nth-child(even) {
   padding-right: 100px;
 }
 
-.row {
-  margin : 0px;
-}
+
 
 .trophy-image {
   padding: 100px 100px 100px 100px;
@@ -71,12 +69,24 @@ tr:nth-child(even) {
   padding-top: 90px;
 }
 
+.programming {
+  padding-bottom: 60px;
+}
+
 .photography {
   padding-bottom: 60px;
 }
 
 .insta {
   padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.fb {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .camera {
